@@ -28,8 +28,15 @@ static void Main(string[] args)
     // Explicit Conservesion (Bilincli Donusum)
 
     Console.WriteLine("*****Explicit Conservation********") ;
-
-
+    int x = 4;
+    byte y = (byte)x ;
+    Console.WriteLine("y:"+y) ;
+    int z =100 ;
+    byte t= (byte)z ;
+    Console.WriteLine("z:"+z) ;
+    float w = 10.3f;
+    byte v = (byte)w ;
+    Console.WriteLine("v:"+v) ;
 
     
 }
